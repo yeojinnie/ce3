@@ -4,7 +4,7 @@ $(window).on("load", start);
 
 
 function start(){
-    $("ul nav a:first").click();
+    $("ul.nav a:first").click();
 }
 
 $(document).on("click","ul.nav a", nav);
